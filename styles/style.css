@@ -4,10 +4,9 @@
     width: 1340px;
     display: grid;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-bottom: 4px;
     grid-template-columns: 1fr min-content 1fr;
-    justify-content: space-between;
     align-content: center;
 }
 
@@ -46,8 +45,7 @@
     height: 105px;
 }
 
-.address{
-    justify-self: end;
+.address{  
     margin: 0;
     padding: 0;
     width: 240px;
@@ -55,6 +53,7 @@
 }
 
 .header__address{
+    justify-self: end;
     margin-right: 0;
 }
 
@@ -146,4 +145,93 @@
 .lots__look-more-link{
     font-size: 20px;
     margin-left: 40px;
+}
+
+.about{
+    width: 1340px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+.logo__column{
+    width: 430px;
+    height: 240px;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.about__logo{
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-self: center;
+    justify-self: center; */
+}
+
+.about__logo-image{
+    width: 148px;
+}
+
+.about__column{
+    align-self: flex-end;
+    width: 885px;
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+}
+
+.about__title{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 75px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about__text{
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.footer{
+    width: 1340px;
+    margin: 180px auto 90px;
+    padding: 0;
+    display: grid;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding-bottom: 4px;
+    grid-template-columns: 1fr min-content 1fr;
+    align-content: flex-start;
+}
+
+.footer__menu{
+    width: 149px;
+}
+
+.footer__menu-list{
+    list-style-type: none;
+}
+
+.footer__menu-link_active{
+    text-decoration: none;
+}
+
+.footer__social-list{
+    display: flex;
+}
+
+.footer__social-list{
+    width: 240px;
+    justify-self: end;
+    margin-right: 0;
 }
