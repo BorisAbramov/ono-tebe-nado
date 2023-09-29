@@ -129,7 +129,7 @@
     margin-right: 30px; */
     /* margin: 14px 30px 5px 0; */
     text-align: center;
-    line-height: 100%; 
+    line-height: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-right: 25px;
@@ -138,7 +138,7 @@
 .cover__title_aligned-text_right {
     text-align: right;
     /* margin-right: -30px; */
-    line-height: 100%; 
+    line-height: 100%;
 }
 
 .letter-spacing-extended {
@@ -225,7 +225,7 @@
     gap: 25px;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
     flex-grow: 1;
     width: 430px;
     min-height: 450px;
@@ -366,7 +366,7 @@
     color: #000;
 }
 
-.about__text:first-child{
+.about__text:first-child {
     padding-top: 0;
 }
 
