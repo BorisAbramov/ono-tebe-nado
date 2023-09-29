@@ -50,7 +50,7 @@
 }
 
 .header__link_active {
-    text-decoration: dashed;
+    text-decoration: underline;
 }
 
 .header__logo {
@@ -121,6 +121,11 @@
 
 .cover__title_aligned-text {
     display: block;
+    margin-top: 20px;
+}
+
+.cover__title_aligned-text:first-child {
+    margin-top: 0;
 }
 
 .cover__title_aligned-text_center {
@@ -130,9 +135,9 @@
     /* margin: 14px 30px 5px 0; */
     text-align: center;
     line-height: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-right: 25px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    /* padding-right: 25px; */
 }
 
 .cover__title_aligned-text_right {
